@@ -42,3 +42,7 @@
     width: 100%;
     background-color: blueviolet;
 }
+
+img {
+    max-width: 100%;
+}
