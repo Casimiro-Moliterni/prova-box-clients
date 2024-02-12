@@ -1,54 +1,114 @@
-/* regole di base  */
 
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.conteiner-large{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.conteiner-small{
-    max-width: 1000px;
-    margin: 0 auto;
-}
 
 .box-clients{
     display: flex;
-}
+    border: none;
+    margin-top: 145px;
+ }
+
 
 .col-33-vw{
     width: calc(100vw / 3);
     height: calc(100vw / 3);
-    border: 1px solid red;
-    background-color: aquamarine;
     flex-wrap: wrap;
     overflow-y: auto;
     display: flex;
 }
 
 .item-cards{
-    background-color: blue;
     height: 50%;
     width: 50%;
-    border: 1px solid yellowgreen;
-    padding: 50px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
 .item-cards-center{
-    height: 100%;
-    width: 100%;
-    background-color: blueviolet;
+    background-color: #f5f5f5;
+    border: none;
+    padding: 45px 50px;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
+.col-33-vw .item-cards-center .padding{
+    padding-top: 45px;
+ }
 
-img {
-    max-width: 100%;
-}
-
+.col-33-vw .item-cards-center hr{
+    width: 100px;
+    color: #d0d0d3;
+ }
+ .col-33-vw .item-cards-center .designit {
+    height: 90px;  
+ }
 .item-cards img{
     filter: invert(1);
 }
+
+.box-clients .col-33-vw .item-cards .logo-cards{
+   height: 50px;
+   filter: invert(1);
+}
+
+.box-clients .col-33-vw .item-cards .logo-cards.florida{
+   height: 40px;
+   
+}
+
+.box-clients .col-33-vw .item-cards .logo-cards.world{
+   height: 70px;
+}
+
+.box-clients .col-33-vw .item-cards .logo-cards-big{
+   height: 120px;
+  filter: invert(1);
+}
+
+.box-clients .col-33-vw .item-cards .logo-cards-big.topps{
+   height: 90px; 
+}
+.box-clients .col-33-vw .item-cards .logo-cards.lonely{
+    height: 85px;
+ }
+ .box-clients .col-33-vw .item-cards .logo-cards.hearts{
+    height: 20px;
+ }
+.color-green{
+   background-color:#d1e9cd;
+   padding: 18px;
+}
+.color-darkgreen{
+   background-color: #a2d39b;
+   justify-content: center;
+   display: flex;
+   align-items: center;
+   height: 100%;
+   width: 100%;
+}
+.color-lightblue{
+   background-color: #0093ce;
+}
+.color-purple{
+   background-color: #61082b;
+}
+
+.color-red{
+   background-color: #ff1c1c;
+}
+.color-dark-red{
+   background-color: #d5001f;
+}
+.color-blue{
+   background-color: #0d2481;
+}
+.color-lightgrey{
+   background-color: #b4d0e7;
+}
+.color-yellow{
+   background-color: #ffd830;
+}
+
+
+
