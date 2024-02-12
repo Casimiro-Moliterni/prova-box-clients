@@ -1,0 +1,44 @@
+/* regole di base  */
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteiner-large{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.conteiner-small{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.box-clients{
+    display: flex;
+}
+
+.col-33-vw{
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+    border: 1px solid red;
+    background-color: aquamarine;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    display: flex;
+}
+
+.item-cards{
+    background-color: blue;
+    height: 50%;
+    width: 50%;
+    border: 1px solid yellowgreen;
+}
+
+.item-cards-center{
+    height: 100%;
+    width: 100%;
+    background-color: blueviolet;
+}
