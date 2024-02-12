@@ -35,6 +35,8 @@
     height: 50%;
     width: 50%;
     border: 1px solid yellowgreen;
+    padding: 50px;
+    
 }
 
 .item-cards-center{
@@ -45,4 +47,8 @@
 
 img {
     max-width: 100%;
+}
+
+.item-cards img{
+    filter: invert(1);
 }
